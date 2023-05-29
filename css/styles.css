@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    margin: 20px auto;
+}
+
+header h1 {
+    margin: 20px;
+}
+
+hr {
+    color: blue;
+    height: 5px;
+    background-color: blue;
+}
+
+main section {
+    margin: 20px;
+}
+
+main section form {
+    margin: 10px;
+}
+
+main section select {
+    margin: 10px;
+}
+
+#pacientes {
+    list-style: none;
+    margin: 20px;
+}
+
+li {
+    border-radius: 20px;
+    border: 3px solid blue;
+    margin: 5px 0;
+    padding: 5px;
+    max-width: 535px;
+}
+
+li p span {
+    font-weight: bold;
+}
+
+#multiple {
+    width: 100%;
+    max-width: 535px;
+}
+
+.filtroEdad>div {
+    margin: 10px 0;
+}
